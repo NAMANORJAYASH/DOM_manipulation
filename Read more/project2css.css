@@ -1,0 +1,37 @@
+body{background-image: url('https://previews.123rf.com/images/marisha5/marisha51604/marisha5160400240/55295791-green-trees-background-in-forest.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	back}
+
+#read-more{background-color:transparent;
+	border-color: white;
+	border-width: 8;
+	border-radius: 12%;
+	transform: translateY(45vh) translateX(1vh);
+	width: 10%;
+	height:8%;
+	font-size: 140%;
+	color: white;
+	font-weight: 600;}
+
+#appear-text{
+	background-color: antiquewhite;
+	position: center;
+	width:15%;
+	height:3%;
+	left: 40%;
+	position: relative;
+	text-align: center;
+	padding: 1%;
+	transition-delay:555s;
+	transform: translateY(35vh);
+	border-width:10;
+	border-color: black;
+
+	}
+
+
+
+#Cross-button{
+	height:120%;
+}

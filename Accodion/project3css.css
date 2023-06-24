@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+
+#content-wrapper {
+    background-color: antiquewhite;
+    position: absolute;
+    width: 40%;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 3%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#answer1,#answer2,#answer3{
+    display: none;
+}
+
+#button-1,#button-2,#button-3{
+    position: absolute;
+    right: 7%;    
+}

@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Quote Generator</title>
+	</head>
+	<body>
+		<h1>Quote Generator</h1>
+		<div id="quote_space"><h4></h4>
+		</div>
+		<div id='quote_gen'><button >Quote</button></div>
+		<style type="text/css">
+			body{background-image:url("https://mcdn.wallpapersafari.com/medium/21/36/5d92kj.jpg");
+				background-size:100% 90%}
+			h1{text-align:center;
+			   color: indianred;
+				font-family: cursive;
+				font-size:60px}
+			#quote_gen{text-align: center;}
+			button{background-color: indianred;}
+			#quote_space{color: indianred;
+				block-size: 100px;
+				text-align: center;
+				padding-block-start: 150px;
+				padding-block-end: 150px;}
+		</style>
+		<script>
+			quote_space=document.querySelector('#quote_space')
+			quote_gen=document.querySelector('#quote_gen');
+			quote_gen.addEventListener("click",generate);
+
+			var i=0;
+			function generate(){
+				switch(i){
+					case 0:
+						quote_space.innerText=`The only way to do great work is to love what you do.`;
+						break;
+					case 1:
+						quote_space.innerText=`In the middle of difficulty lies opportunity.`;
+						break;
+					case 2:
+						quote_space.innerText=`Believe you can and you're halfway there.`;
+						break;
+					case 3:
+						quote_space.innerText=`The future belongs to those who believe in the beauty of their dreams.`;
+						break;
+					case 4:
+						quote_space.innerText=`Be the change that you wish to see in the world.`;
+						break;
+					case 5:
+						quote_space.innerText=`Success is not the key to happiness. Happiness is the key to success.`;
+						break;
+					case 6:
+						quote_space.innerText=`The best way to predict the future is to create it.`;
+						break;
+				}
+				i++;
+				if(i===7)
+					{i=0}
+						};
+			document.querySelector('quote_gen').innertext="quote!!"
+		</script>
+	</body>
+</html>

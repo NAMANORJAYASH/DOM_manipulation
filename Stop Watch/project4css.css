@@ -1,0 +1,41 @@
+body{
+    background-image: url('http://4.bp.blogspot.com/-cQ4XnoW4Ysc/Tzbg3Jh25VI/AAAAAAAAA74/xFjSDny2SqU/s320/21.Jpg');
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 70px;
+}
+
+#timer_container{
+    position: relative;
+    transform: translateY(22vh);
+    font-size: 70px;
+    text-align:center
+}
+
+#buttons_container{
+    position: relative;
+    text-align: center;
+    transform: translateY(25vh);
+    font-size: large;
+}
+
+#button1{
+    width: 80px;
+    height: 30px;}
+
+#button2{
+    width: 80px;
+    height: 30px;
+}
+
+#button1_2{
+    width: 80px;
+    height: 30px;}
+
+#button1_3{
+    width: 80px;
+    height: 30px;}  
